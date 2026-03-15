@@ -25,7 +25,7 @@
     <header class="topbar">
       <div class="container topbar-inner">
         <a class="brand" href="index.html">webeska.agency</a>
-        <nav class="main-nav" aria-label="Navigation principale">
+        <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
           <a href="index.html">Accueil</a>
           <a href="services.html">Services</a>
           <a href="methode.html" aria-current="page">Methode</a>
@@ -34,6 +34,11 @@
           <a href="ressources.html">Ressources</a>
           <a href="contact.html">Contact</a>
         </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
         <a class="btn btn-ghost" href="contact.html">Planifier un audit</a>
       </div>
     </header>
@@ -47,24 +52,36 @@
 
       <section class="section container timeline">
         <article class="timeline-item">
-          <p class="step">Semaine 1</p>
-          <h2>Audit & diagnostic</h2>
-          <p>Cartographie complete du funnel, analyse des taux de perte et audit tracking.</p>
+          <div class="timeline-num" aria-hidden="true">01</div>
+          <div>
+            <p class="eyebrow">Semaine 1</p>
+            <h3>Audit &amp; diagnostic</h3>
+            <p>Cartographie complete du funnel, analyse des taux de perte et audit tracking.</p>
+          </div>
         </article>
         <article class="timeline-item">
-          <p class="step">Semaine 2</p>
-          <h2>Architecture du systeme</h2>
-          <p>Definition de l'offre, stack d'acquisition, schemas d'automatisation et plan editorial.</p>
+          <div class="timeline-num" aria-hidden="true">02</div>
+          <div>
+            <p class="eyebrow">Semaine 2</p>
+            <h3>Architecture du systeme</h3>
+            <p>Definition de l'offre, stack d'acquisition, schemas d'automatisation et plan editorial.</p>
+          </div>
         </article>
         <article class="timeline-item">
-          <p class="step">Semaines 3-4</p>
-          <h2>Execution sprint</h2>
-          <p>Lancement des campagnes, pages, sequences outbound et qualification des leads.</p>
+          <div class="timeline-num" aria-hidden="true">03</div>
+          <div>
+            <p class="eyebrow">Semaines 3&ndash;4</p>
+            <h3>Execution sprint</h3>
+            <p>Lancement des campagnes, pages, sequences outbound et qualification des leads.</p>
+          </div>
         </article>
         <article class="timeline-item">
-          <p class="step">Continu</p>
-          <h2>Optimisation ROI</h2>
-          <p>Rituels hebdo sur CPL, SQL rate, close rate, retention, et priorisation des tests.</p>
+          <div class="timeline-num" aria-hidden="true">&infin;</div>
+          <div>
+            <p class="eyebrow">Continu</p>
+            <h3>Optimisation ROI</h3>
+            <p>Rituels hebdo sur CPL, SQL rate, close rate, retention, et priorisation des tests.</p>
+          </div>
         </article>
       </section>
 
@@ -114,6 +131,10 @@
           <p class="footer-title">Contact</p>
           <a href="mailto:hi@webeska.agency">hi@webeska.agency</a>
         </div>
+      </div>
+      <div class="container footer-bottom">
+        <p class="footer-copy">&copy; 2026 webeska.agency &mdash; Tous droits r&eacute;serv&eacute;s.</p>
+        <a href="mailto:hi@webeska.agency" style="color:var(--muted);font-size:0.8rem;text-decoration:none;display:inline;">hi@webeska.agency</a>
       </div>
     </footer>
 

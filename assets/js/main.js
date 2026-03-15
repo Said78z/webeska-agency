@@ -2,6 +2,55 @@ const buttons = document.querySelectorAll('.btn');
 const leadForm = document.querySelector('#lead-form');
 const formMessage = document.querySelector('#form-message');
 
+/* ── Topbar: scrolled state ──────────────────────────────────── */
+const topbar = document.querySelector('.topbar');
+if (topbar) {
+  const onScroll = () => {
+    topbar.classList.toggle('scrolled', window.scrollY > 10);
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+}
+
+/* ── Hamburger menu ──────────────────────────────────────────── */
+const navToggle = document.getElementById('nav-toggle');
+const mainNav = document.getElementById('main-nav');
+
+if (navToggle && mainNav && topbar) {
+  navToggle.addEventListener('click', () => {
+    const isOpen = topbar.classList.toggle('menu-open');
+    navToggle.setAttribute('aria-expanded', String(isOpen));
+  });
+
+  // Close on Escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && topbar.classList.contains('menu-open')) {
+      topbar.classList.remove('menu-open');
+      navToggle.setAttribute('aria-expanded', 'false');
+      navToggle.focus();
+    }
+  });
+
+  // Close on outside click
+  document.addEventListener('click', (e) => {
+    if (
+      topbar.classList.contains('menu-open') &&
+      !topbar.contains(e.target)
+    ) {
+      topbar.classList.remove('menu-open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  // Close when a nav link is clicked (SPA-style)
+  mainNav.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      topbar.classList.remove('menu-open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+}
+
 const defaultConfig = {
   leadApiUrl: '/api/lead',
   requestTimeoutMs: 8000,
