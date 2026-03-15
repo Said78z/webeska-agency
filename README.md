@@ -56,6 +56,38 @@ Definir ces secrets dans Project Settings -> Environment Variables:
 
 Un exemple est fourni dans .env.example.
 
+## Lancer en local (sans Vercel CLI)
+
+Serveur local full code (front + API):
+
+1. Lancer: node dev-server.js
+2. Ouvrir: http://localhost:3000
+3. Tester l'API: POST http://localhost:3000/api/lead
+
+Pour activer l'envoi email en local, definir ces variables avant le lancement:
+
+1. export RESEND_API_KEY=...
+2. export LEAD_FROM_EMAIL="Webeska Leads <noreply@webeska.agency>"
+3. export LEAD_TO_EMAIL="hi@webeska.agency"
+
+Exemple:
+
+RESEND_API_KEY=re_xxx LEAD_TO_EMAIL=hi@webeska.agency node dev-server.js
+
+Smoke test local en une commande:
+
+./scripts/smoke-test.sh
+
+## Parametres Vercel recommandes
+
+Si Vercel detecte a tort Next.js:
+
+1. Framework Preset: Other
+2. Build Command: vide
+3. Output Directory: vide
+4. Install Command: vide
+5. Supprimer tout Production Override contenant .next
+
 ## API backend lead
 
 Endpoint: POST /api/lead
