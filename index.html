@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>webeska.agency | Growth IA</title>
+    <meta
+      name="description"
+      content="Agence Growth IA: acquisition, automatisation et retention pour scaler votre revenu de facon previsible."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <div class="brand">webeska.agency</div>
+        <a class="btn btn-ghost" href="#contact">Parler a un strategiste</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <p class="eyebrow">Growth IA d'elite</p>
+        <h1>
+          Nous transformons votre acquisition en
+          <span>machine de croissance predicible</span>
+        </h1>
+        <p class="lead">
+          Performance marketing, automation IA et pilotage data pour augmenter votre
+          revenu sans augmenter la complexite operationnelle.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Demarrer un audit</a>
+          <a class="btn btn-secondary" href="#method">Voir la methode</a>
+        </div>
+
+        <ul class="kpi-strip" aria-label="Indicateurs cibles">
+          <li><strong>-25%</strong><span>CPL moyen</span></li>
+          <li><strong>+40%</strong><span>Taux SQL</span></li>
+          <li><strong>+30%</strong><span>LTV 90 jours</span></li>
+        </ul>
+      </section>
+
+      <section class="section container social-proof" aria-label="Preuves sociales">
+        <p class="proof-title">Ils nous consultent pour industrialiser leur croissance</p>
+        <div class="logo-cloud">
+          <span>NovaTech</span>
+          <span>ScaleOps</span>
+          <span>MarketFlow</span>
+          <span>LeadForge</span>
+          <span>DataSprint</span>
+        </div>
+      </section>
+
+      <section id="method" class="section container">
+        <h2>Methode orientee ROI</h2>
+        <div class="cards">
+          <article class="card">
+            <p class="step">01</p>
+            <h3>Audit Funnel AARRR</h3>
+            <p>
+              Analyse complete acquisition -> activation -> retention pour detecter
+              les fuites de marge prioritaires.
+            </p>
+          </article>
+          <article class="card">
+            <p class="step">02</p>
+            <h3>Systemes IA</h3>
+            <p>
+              Workflows Make/Zapier + agents IA pour scorer, segmenter, relancer et
+              qualifier automatiquement.
+            </p>
+          </article>
+          <article class="card">
+            <p class="step">03</p>
+            <h3>Optimisation continue</h3>
+            <p>
+              Tests hebdomadaires sur offres, messages et creatives, pilotes par les
+              metriques business reelles.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container quote">
+        <blockquote>
+          "Votre croissance ne manque pas d'idees. Elle manque d'un systeme qui execute
+          plus vite que le marche."
+        </blockquote>
+      </section>
+
+      <section id="contact" class="section container cta">
+        <h2>Pret a scaler en 30 jours ?</h2>
+        <p>
+          Recevez un plan d'attaque concret: quick wins, automatisations IA et KPIs
+          cibles sur 90 jours.
+        </p>
+
+        <form id="lead-form" class="lead-form" novalidate>
+          <div class="form-grid">
+            <label>
+              Nom complet
+              <input type="text" name="fullName" required placeholder="Ex: Sarah Martin" />
+            </label>
+            <label>
+              Email pro
+              <input type="email" name="email" required placeholder="vous@entreprise.com" />
+            </label>
+            <label>
+              Entreprise
+              <input type="text" name="company" required placeholder="Nom de l'entreprise" />
+            </label>
+            <label>
+              Budget mensuel acquisition
+              <select name="budget" required>
+                <option value="">Selectionnez</option>
+                <option value="<5k">Moins de 5k EUR</option>
+                <option value="5k-20k">5k a 20k EUR</option>
+                <option value="20k-50k">20k a 50k EUR</option>
+                <option value=">50k">Plus de 50k EUR</option>
+              </select>
+            </label>
+            <label class="full">
+              Priorite business (90 jours)
+              <textarea
+                name="priority"
+                rows="4"
+                required
+                placeholder="Ex: augmenter le volume SQL sans degrader le taux de closing"
+              ></textarea>
+            </label>
+          </div>
+
+          <input type="text" name="website" class="hidden-honeypot" tabindex="-1" autocomplete="off" />
+
+          <button type="submit" class="btn btn-primary" data-track="lead_submit_click">
+            Reserver un diagnostic
+          </button>
+          <p id="form-message" class="form-message" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
