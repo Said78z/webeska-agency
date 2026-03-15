@@ -41,6 +41,28 @@ function trackEvent(name, payload = {}) {
 
 trackEvent('page_view');
 
+let hasTrackedScrollDepth = false;
+
+function trackScrollDepth() {
+  if (hasTrackedScrollDepth) {
+    return;
+  }
+
+  const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+  if (documentHeight <= 0) {
+    return;
+  }
+
+  const scrollRatio = window.scrollY / documentHeight;
+  if (scrollRatio >= 0.5) {
+    hasTrackedScrollDepth = true;
+    trackEvent('scroll_depth', { depth_percent: 50 });
+    window.removeEventListener('scroll', trackScrollDepth);
+  }
+}
+
+window.addEventListener('scroll', trackScrollDepth, { passive: true });
+
 const revealTargets = document.querySelectorAll('.hero, .page-hero, .section, .site-footer');
 
 if ('IntersectionObserver' in window) {

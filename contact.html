@@ -44,6 +44,8 @@
   <body data-page="contact">
     <div class="noise" aria-hidden="true"></div>
 
+    <a class="skip-link" href="#main-content">Aller au contenu</a>
+
     <header class="topbar">
       <div class="container topbar-inner">
         <a class="brand" href="index.html">webeska.agency</a>
@@ -60,7 +62,7 @@
       </div>
     </header>
 
-    <main>
+    <main id="main-content">
       <section class="container page-hero">
         <p class="eyebrow">Prise de contact</p>
         <h1>Recevez un plan d'attaque 90 jours, priorise par ROI</h1>
@@ -85,15 +87,15 @@
             <div class="form-grid">
               <label>
                 Nom complet
-                <input type="text" name="fullName" required placeholder="Ex: Sarah Martin" />
+                <input type="text" name="fullName" required autocomplete="name" placeholder="Ex: Sarah Martin" />
               </label>
               <label>
                 Email pro
-                <input type="email" name="email" required placeholder="vous@entreprise.com" />
+                <input type="email" name="email" required autocomplete="email" inputmode="email" placeholder="vous@entreprise.com" />
               </label>
               <label>
                 Entreprise
-                <input type="text" name="company" required placeholder="Nom de l'entreprise" />
+                <input type="text" name="company" required autocomplete="organization" placeholder="Nom de l'entreprise" />
               </label>
               <label>
                 Budget mensuel acquisition

@@ -28,6 +28,25 @@ body {
     linear-gradient(180deg, #020617 0%, #0b1222 100%);
   min-height: 100vh;
   line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 30;
+  background: #f8fafc;
+  color: #0f172a;
+  border-radius: 10px;
+  padding: 0.55rem 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  left: 0.7rem;
+  top: 0.7rem;
 }
 
 .noise {
@@ -171,6 +190,15 @@ h1 span {
   filter: brightness(1.07);
 }
 
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid rgba(34, 211, 238, 0.8);
+  outline-offset: 2px;
+}
+
 .btn-primary {
   background: linear-gradient(90deg, #f59e0b 0%, #fb923c 100%);
   color: #111827;
@@ -216,6 +244,8 @@ h1 span {
 
 .section {
   padding: 2.6rem 0;
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 700px;
 }
 
 .section-lead {
