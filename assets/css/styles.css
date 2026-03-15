@@ -304,6 +304,14 @@ h1 span {
   font-size: 0.92rem;
 }
 
+.form-message.success {
+  color: #86efac;
+}
+
+.form-message.error {
+  color: #fca5a5;
+}
+
 @keyframes rise {
   from {
     opacity: 0;
