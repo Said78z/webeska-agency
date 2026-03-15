@@ -23,9 +23,13 @@ const runtimeConfig = {
 };
 
 function trackEvent(name, payload = {}) {
+  const pageName = document.body && document.body.dataset ? document.body.dataset.page || 'unknown' : 'unknown';
+  const pagePath = window.location ? window.location.pathname : '';
+
   const eventPayload = {
     event: name,
-    page: 'landing',
+    page: pageName,
+    path: pagePath,
     source: runtimeConfig.source,
     timestamp: new Date().toISOString(),
     ...payload,
@@ -33,6 +37,33 @@ function trackEvent(name, payload = {}) {
 
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push(eventPayload);
+}
+
+trackEvent('page_view');
+
+const revealTargets = document.querySelectorAll('.hero, .page-hero, .section, .site-footer');
+
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.14 },
+  );
+
+  revealTargets.forEach((target) => {
+    target.classList.add('reveal');
+    observer.observe(target);
+  });
+} else {
+  revealTargets.forEach((target) => {
+    target.classList.add('is-visible');
+  });
 }
 
 function setFormMessage(text, type) {

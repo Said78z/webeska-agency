@@ -168,11 +168,35 @@ Ces events sont pushes dans dataLayer pour exploitation GA4/GTM.
 .
 |- README.md
 |- index.html
+|- services.html
+|- methode.html
+|- cas-clients.html
+|- contact.html
+|- pricing.html
+|- ressources.html
+|- icp-saas.html
+|- icp-ecommerce.html
+|- icp-cabinet.html
 |- assets/
 	|- css/
 	|  |- styles.css
 	|- js/
+		|- config.js
+		|- ads.js
 		|- main.js
+
+## Pages du site agence
+
+- index.html: hub principal et proposition de valeur
+- services.html: catalogue d'offres Growth IA
+- methode.html: framework d'execution en 4 phases
+- cas-clients.html: preuves de performance et resultats
+- contact.html: page conversion principale avec formulaire
+- pricing.html: offres, comparatif et CTA de cadrage
+- ressources.html: hub de contenus tactical SEO/CRO
+- icp-saas.html: landing verticale SaaS B2B
+- icp-ecommerce.html: landing verticale e-commerce
+- icp-cabinet.html: landing verticale cabinet de conseil
 
 ## Definition of Done (MVP)
 
@@ -182,6 +206,6 @@ Ces events sont pushes dans dataLayer pour exploitation GA4/GTM.
 
 ## Prochaines actions immediates
 
-1. Remplacer les logos placeholder par des preuves clients reelles.
-2. Configurer les variables Vercel (Resend + emails).
-3. Ajouter dashboard CPL -> SQL -> Closing en pilotage hebdo.
+1. Brancher un mini CMS headless pour les cas clients et ressources.
+2. Ajouter dashboard CPL -> SQL -> Closing en pilotage hebdo.
+3. Integrer un module de prise de rendez-vous (Calendly ou equivalent full code).
