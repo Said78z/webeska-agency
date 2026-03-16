@@ -4,6 +4,7 @@ const path = require('path');
 const url = require('url');
 
 const leadHandler = require('./api/lead');
+const chatHandler = require('./api/chat');
 
 const HOST = process.env.HOST || '0.0.0.0';
 const PORT = Number(process.env.PORT || 3000);
@@ -64,6 +65,10 @@ function invokeApiHandler(handler, req, res, body) {
       this.statusCode = code;
       return this;
     },
+        setHeader(name, value) {
+          res.setHeader(name, value);
+          return this;
+        },
     json(payload) {
       sendJson(res, this.statusCode, payload);
       return this;
@@ -79,30 +84,29 @@ const server = http.createServer((req, res) => {
   const parsed = url.parse(req.url || '/');
   const pathname = parsed.pathname || '/';
 
-  if (pathname === '/api/lead') {
+  function parseBodyAndInvoke(handler, maxBytes) {
     let raw = '';
-
     req.on('data', (chunk) => {
       raw += chunk;
-      if (raw.length > 2 * 1024 * 1024) {
-        req.socket.destroy();
-      }
+      if (raw.length > maxBytes) req.socket.destroy();
     });
-
     req.on('end', () => {
       let body = {};
       if (raw) {
-        try {
-          body = JSON.parse(raw);
-        } catch {
-          sendJson(res, 400, { ok: false, error: 'invalid_json' });
-          return;
-        }
+        try { body = JSON.parse(raw); }
+        catch { sendJson(res, 400, { ok: false, error: 'invalid_json' }); return; }
       }
-
-      invokeApiHandler(leadHandler, req, res, body);
+      invokeApiHandler(handler, req, res, body);
     });
+  }
 
+  if (pathname === '/api/chat') {
+    parseBodyAndInvoke(chatHandler, 64 * 1024);
+    return;
+  }
+
+  if (pathname === '/api/lead') {
+    parseBodyAndInvoke(leadHandler, 2 * 1024 * 1024);
     return;
   }
 

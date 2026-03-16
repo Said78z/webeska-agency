@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "version": "1.0",
+    "updated": "2026-03",
+    "language": "fr"
+  },
+  "chunks": [
+    {
+      "id": "overview",
+      "title": "Webeska Agency — Présentation générale",
+      "content": "Webeska Agency est une agence growth IA orientée ROI, basée en France. Nous aidons les PME et scale-ups à augmenter leurs revenus de façon prévisible en combinant performance marketing, automation IA et pilotage data. Notre approche est 100% orientée résultats business : moins de CPL, plus de SQL qualifiés, meilleure LTV. Nous n'offrons pas d'abonnements vagues — chaque engagement a des KPIs définis et mesurables. L'email de contact est hi@webeska.agency.",
+      "tags": ["agence", "présentation", "webeska", "growth", "IA", "ROI", "PME", "scaleup", "résultats"]
+    },
+    {
+      "id": "services-overview",
+      "title": "Services Webeska — Vue d'ensemble",
+      "content": "Webeska propose trois services principaux : (1) Acquisition Performance — pour générer plus de leads qualifiés via Google Ads, Meta Ads, LinkedIn et SEO. (2) Automation IA — pour automatiser la qualification, le nurturing et la relance des prospects avec des agents IA sur mesure. (3) Retention & LTV — pour maximiser la valeur client via la segmentation lifecycle, les séquences d'upsell et les programmes de fidélisation pilotés par data. Ces services peuvent être activés séparément ou en combiné selon les besoins.",
+      "tags": ["services", "acquisition", "automation", "retention", "LTV", "IA", "ads", "SEO"]
+    },
+    {
+      "id": "service-acquisition",
+      "title": "Service : Acquisition Performance",
+      "content": "Le service Acquisition Performance inclut : création et optimisation de campagnes Google Ads (Search, Display, Shopping), Meta Ads (Facebook, Instagram), LinkedIn Ads pour le B2B. Nous gérons également le SEO technique, le SEO éditorial et le netlinking. Pour l'outbound, nous mettons en place des séquences de cold email et de LinkedIn Outreach automatisées. Résultats typiques : réduction du CPL de 20 à 35%, augmentation du volume de leads qualifiés de 40 à 60%. Idéal pour les entreprises avec un budget mensuel de 5k à 50k EUR.",
+      "tags": ["acquisition", "Google Ads", "Meta Ads", "LinkedIn", "SEO", "outbound", "cold email", "campagnes", "CPL", "leads"]
+    },
+    {
+      "id": "service-automation-ia",
+      "title": "Service : Automation IA",
+      "content": "Le service Automation IA permet de construire des systèmes intelligents pour automatiser les tâches répétitives à haute valeur : scoring automatique des leads entrants, séquences d'email nurturing personnalisées par segment, chatbots de qualification, agents IA pour la relance et le suivi post-demo. Nous utilisons des LLMs (GPT-4, Claude, Mistral) en production pour personnaliser la communication à grande échelle. L'objectif est de multiplier la capacité de l'équipe commerciale sans augmenter les coûts fixes. Gain typique : +50% de SQL traités avec la même équipe.",
+      "tags": ["automation", "IA", "intelligence artificielle", "LLM", "scoring", "nurturing", "chatbot", "agents", "SQL"]
+    },
+    {
+      "id": "service-retention-ltv",
+      "title": "Service : Retention & LTV",
+      "content": "Le service Retention & LTV se concentre sur la valeur client après acquisition : segmentation lifecycle (nouveau, actif, à risque, churné), campagnes de réactivation, programmes d'upsell et cross-sell, NPS et boucles de feedback. Nous construisons des dashboards de rétention avec alertes sur les signaux de churn. Résultats typiques : +25 à 40% de LTV sur 12 mois, réduction du churn mensuel de 30 à 50%. Ce service est particulièrement puissant pour les SaaS et les e-commerçants.",
+      "tags": ["retention", "LTV", "churn", "lifecycle", "upsell", "cross-sell", "fidélisation", "NPS", "SaaS", "ecommerce"]
+    },
+    {
+      "id": "methodology",
+      "title": "Méthode Webeska — 4 phases AARRR",
+      "content": "Notre méthode se déroule en 4 phases : Phase 1 (Semaine 1) — Audit & diagnostic : analyse complète du funnel AARRR, détection des fuites de conversion, audit tracking et data. Phase 2 (Semaine 2) — Architecture système : définition des offres cibles, sélection des canaux, schémas d'automation et plan d'exécution. Phase 3 (Semaines 3-4) — Sprint d'exécution : lancement des campagnes, pages de conversion, séquences outbound, mise en place des automatisations. Phase 4 (Continu) — Optimisation ROI : rituels hebdomadaires sur CPL, SQL rate, close rate, LTV, avec priorisation des tests A/B.",
+      "tags": ["méthode", "AARRR", "audit", "funnel", "sprint", "optimisation", "phases", "diagnostic", "processus"]
+    },
+    {
+      "id": "pricing-audit",
+      "title": "Tarif : Growth Audit — 2 900 EUR",
+      "content": "Le Growth Audit est un engagement ponctuel à 2 900 EUR HT. Il comprend : audit complet du funnel acquisition → revenu (2-3 jours), analyse des canaux actifs et identification des opportunités, cartographie des fuites de conversion, recommandations priorisées avec impact estimé, roadmap d'exécution sur 90 jours. Livrable en 5 jours ouvrés. Idéal pour débuter avec Webeska ou pour un diagnostic ponctuel avant une levée de fonds ou un changement de stratégie.",
+      "tags": ["tarif", "prix", "audit", "2900", "growth audit", "ponctuel", "diagnostic", "offre", "coût"]
+    },
+    {
+      "id": "pricing-sprint",
+      "title": "Tarif : Growth Sprint — 5 500 EUR/mois (3 mois min.)",
+      "content": "Le Growth Sprint est notre offre principale à 5 500 EUR HT/mois avec un engagement minimum de 3 mois. Il inclut tout le Growth Audit PLUS : mise en œuvre complète (campagnes, automation, contenus), reporting hebdomadaire avec KPIs business, accès slack direct à l'équipe, tests A/B continus, ajustements stratégiques mensuels. C'est l'offre recommandée pour les entreprises avec un budget marketing existant qui veulent accélérer rapidement. L'engagement trimestriel permet d'atteindre les premiers résultats mesurables.",
+      "tags": ["tarif", "prix", "sprint", "5500", "mensuel", "3 mois", "abonnement", "offre vedette", "recommandé"]
+    },
+    {
+      "id": "pricing-engine",
+      "title": "Tarif : Revenue Engine — Sur devis",
+      "content": "Le Revenue Engine est notre offre premium pour les entreprises avec des besoins complexes : équipe dédiée full-stack (ingénieur data, growth marketer, automation engineer), infrastructure d'acquisition et de rétention complète, intégration native aux outils CRM/BI existants, SLA de performance avec objectifs contractuels. Le tarif est sur devis selon la complexité et l'ampleur du projet. Convient aux scale-ups et ETI avec des budgets marketing mensuels supérieurs à 30k EUR.",
+      "tags": ["tarif", "prix", "premium", "sur devis", "revenue engine", "enterprise", "équipe dédiée", "scale-up"]
+    },
+    {
+      "id": "icp-saas",
+      "title": "ICP : SaaS B2B — Cas d'usage",
+      "content": "Pour les SaaS B2B, Webeska adresse les défis classiques : acquisition de leads qualifiés (IQL → MQL → SQL), activation des trials, réduction du churn en early-stage. Notre approche SaaS inclut : scoring des signaux d'intention produit (PQL), séquences d'onboarding automatisées, contenu expert pour le SEO (articles, landing pages ICP), LinkedIn Outreach ciblé sur les décideurs. Résultat type : +60% de MQL à MRR en 90 jours pour un SaaS B2B avec un ACV de 10k à 50k EUR.",
+      "tags": ["SaaS", "B2B", "trial", "onboarding", "PQL", "MQL", "SQL", "churn", "LinkedIn", "logiciel"]
+    },
+    {
+      "id": "icp-ecommerce",
+      "title": "ICP : E-commerce — Cas d'usage",
+      "content": "Pour les e-commerçants, Webeska optimise l'ensemble du funnel : acquisition via Google Shopping, Meta Performance Max et SEO produits ; activation via des flows email post-achat et abandon panier ; rétention via des programmes de fidélité et d'upsell comportemental. Nous intégrons avec Shopify, WooCommerce, Klaviyo et Google Analytics 4. Résultat type : +35% de ROAS sur les campagnes payantes, +28% de LTV à 90 jours grâce aux séquences de rétention.",
+      "tags": ["ecommerce", "e-commerce", "Shopify", "WooCommerce", "Google Shopping", "ROAS", "panier abandonné", "email", "fidélité"]
+    },
+    {
+      "id": "icp-cabinet",
+      "title": "ICP : Cabinet & Conseil — Cas d'usage",
+      "content": "Pour les cabinets de conseil, avocats, experts-comptables et consultants, Webeska développe une machine d'acquisition B2B ciblée sur des buyer personas précis : LinkedIn Ads, Google Ads sur des requêtes d'intention forte, SEO local, cold email personnalisé. Nous construisons des tunnels de qualification adaptés aux cycles de vente longs. Résultat type : +50% de prises de contact qualifiées en 2 mois, réduction du CPL de 40% grâce au ciblage sémantique avancé.",
+      "tags": ["cabinet", "conseil", "consultant", "avocat", "expert-comptable", "B2B", "acquisition", "LinkedIn", "prise de contact"]
+    },
+    {
+      "id": "results-kpi",
+      "title": "Résultats & KPIs typiques",
+      "content": "Les résultats obtenus par nos clients incluent : réduction du CPL (coût par lead) de 25 à 40%, augmentation du taux de SQL de 30 à 50%, amélioration de la LTV à 90 jours de 25 à 35%, multiplication x2 des MQL en 60 jours pour certains SaaS. Ces chiffres varient selon le secteur, le budget et le point de départ. Nous nous engageons sur des KPIs définis en amont de chaque mission. Exemples de métriques pilotées : CPL, CTR, CPC, CAC, Lead→SQL, show-up rate, time-to-first-value, MRR, churn rate, NPS.",
+      "tags": ["résultats", "KPI", "CPL", "SQL", "LTV", "MQL", "performance", "chiffres", "métriques", "engagement"]
+    },
+    {
+      "id": "faq-delay",
+      "title": "FAQ : Délais avant premiers résultats",
+      "content": "Les premiers résultats mesurables arrivent généralement entre 3 et 6 semaines selon le service activé. Pour l'Acquisition Performance (campagnes payantes), les premières données de conversion apparaissent sous 2 semaines. Pour le SEO, les effets se font sentir à partir de 2-3 mois. Pour l'Automation IA, les séquences sont opérationnelles en 2 semaines. Nous livrons un rapport de performance hebdomadaire dès la semaine 2 pour maintenir la visibilité sur les avancées.",
+      "tags": ["délai", "résultats", "rapidité", "semaines", "mois", "timing", "quand", "temps", "durée"]
+    },
+    {
+      "id": "faq-commitment",
+      "title": "FAQ : Engagement et durée de contrat",
+      "content": "Le Growth Audit est sans engagement (paiement unique). Le Growth Sprint nécessite un minimum de 3 mois pour atteindre des résultats significatifs — les 4 premières semaines servent à l'audit et à la mise en place, les suivantes à l'optimisation. Le Revenue Engine est défini sur mesure avec un contrat de 6 à 12 mois. Pas de reconduction tacite — chaque engagement est explicite et peut être renouvelé. Webeska ne prend pas de commission sur les budgets publicitaires.",
+      "tags": ["engagement", "contrat", "durée", "sans engagement", "résiliation", "minimum", "3 mois", "flexibilité"]
+    },
+    {
+      "id": "faq-budget-ads",
+      "title": "FAQ : Budget publicitaire minimum recommandé",
+      "content": "Pour que les campagnes payantes génèrent des données statistiquement fiables, un budget minimum de 3 000 EUR/mois sur les canaux publicitaires est recommandé. Idéalement, pour le Growth Sprint, un budget ads mensuel de 5 000 à 20 000 EUR permet de tester plusieurs canaux simultanément. Webeska ne gère que la stratégie et l'exécution — le budget media est en supplément et est géré directement par le client sur ses comptes (Google, Meta, LinkedIn). Nous ne facturons pas de commission sur le budget media.",
+      "tags": ["budget", "publicité", "ads", "minimum", "media", "Google", "Meta", "LinkedIn", "commissions", "euros"]
+    },
+    {
+      "id": "faq-difference",
+      "title": "FAQ : En quoi Webeska se différencie",
+      "content": "Webeska se différencie des agences classiques sur 4 points : (1) Approche full-funnel intégrée (acquisition + automation + retention) vs agences spécialisées sur un seul canal. (2) Pilotage par les métriques business réelles (CPL, SQL, LTV) vs reporting en vanity metrics. (3) Experts techniques en IA et automation — nous construisons des systèmes, pas juste des campagnes. (4) Transparence totale : accès à tous les comptes, reporting hebdomadaire, KPIs contractuels. Pas de frais cachés, pas de commission media.",
+      "tags": ["différenciation", "avantages", "unique", "comparaison", "agence", "spécificité", "concurrent", "pourquoi choisir"]
+    },
+    {
+      "id": "faq-tools",
+      "title": "FAQ : Outils et technologies utilisés",
+      "content": "Webeska utilise les meilleures technologies disponibles : Google Ads, Meta Ads Manager, LinkedIn Campaign Manager pour l'acquisition payante. Klaviyo, ActiveCampaign ou Make pour l'email automation. OpenAI GPT-4, Anthropic Claude, Groq pour les agents IA. Google Analytics 4, Looker Studio, Metabase pour le tracking et le reporting. HubSpot, Pipedrive ou Salesforce pour le CRM. Nous nous adaptons aux outils déjà en place chez le client.",
+      "tags": ["outils", "technologies", "stack", "CRM", "HubSpot", "Klaviyo", "Google Analytics", "Looker Studio", "Make", "automation"]
+    },
+    {
+      "id": "contact-info",
+      "title": "Contact & Consultation Webeska",
+      "content": "Pour contacter Webeska Agency : email hi@webeska.agency, réponse sous 48h ouvrées. Toute nouvelle collaboration commence par un diagnostic gratuit de 45 minutes avec un strategiste senior — aucun engagement requis. Ce diagnostic permet d'analyser votre situation actuelle, d'identifier les quick wins, et de proposer un plan d'action adapté à vos objectifs. Pour réserver un diagnostic, rendez-vous sur la page Contact : contact.html. Nous préférons la qualité à la quantité — 5 à 8 nouveaux clients par trimestre maximum.",
+      "tags": ["contact", "email", "diagnostic", "consultation", "gratuit", "rendez-vous", "devis", "disponibilité", "audit offert"]
+    },
+    {
+      "id": "growth-marketing-advice",
+      "title": "Conseils growth marketing — Bases",
+      "content": "Les fondamentaux d'une stratégie growth efficace : (1) Mesurer avant d'optimiser — installez un tracking précis avant de dépenser en acquisition. (2) Funnel d'abord — comprendre à quelle étape les prospects abandonnent (acquisition → activation → retention → revenue → referral). (3) Séquencer les canaux — maîtriser un canal avant d'en ouvrir un autre. (4) Automatiser ce qui fonctionne — d'abord testez manuellement, puis automatisez. (5) Piloter par cohortes — mesurez la LTV à 30, 60, 90 jours pour comprendre la vraie rentabilité.",
+      "tags": ["conseils", "growth", "marketing", "stratégie", "tracking", "funnel", "automatisation", "cohortes", "LTV"]
+    },
+    {
+      "id": "seo-advice",
+      "title": "Conseils SEO — Stratégie d'acquisition organique",
+      "content": "Pour une stratégie SEO efficace : (1) Commencez par un audit technique (vitesse, indexation, Core Web Vitals). (2) Ciblez d'abord les mots-clés d'intention commerciale forte plutôt que les mots-clés informationnels. (3) Le maillage interne est souvent sous-estimé — assurez-vous que vos pages prioritaires reçoivent du jus. (4) Le contenu long (1500+ mots) performe mieux sur les requêtes concurrentielles. (5) Le SEO local est souvent négligé mais très rentable pour les services B2B locaux. Les résultats SEO prennent 3 à 6 mois pour se matérialiser pleinement.",
+      "tags": ["SEO", "référencement", "organique", "Google", "mots-clés", "contenu", "technique", "audit SEO", "netlinking"]
+    },
+    {
+      "id": "case-study-saas",
+      "title": "Cas client : SaaS B2B — Résultats",
+      "content": "Cas client SaaS B2B (logiciel RH, 12 employés) : situation initiale — CPL de 420 EUR, moins de 3 SQL par mois. Après 3 mois de Growth Sprint : CPL réduit à 180 EUR (-57%), 11 SQL par mois (+267%), 2 nouveaux clients signés à MRR de 1 500 EUR chacun. Leviers actifs : Google Ads sur requêtes intent forte + LinkedIn Outreach séquencé + scoring automatique des leads + séquence d'email nurturing en 5 étapes. ROI du sprint (5 500 EUR x3 = 16 500 EUR) : +3 600 EUR de MRR récurrent soit payback en moins de 5 mois.",
+      "tags": ["cas client", "SaaS", "résultats", "CPL", "SQL", "MRR", "ROI", "succès", "exemple", "performance"]
+    },
+    {
+      "id": "case-study-ecommerce",
+      "title": "Cas client : E-commerce — Résultats",
+      "content": "Cas client e-commerce (mode masculine, 15 employés) : situation initiale — ROAS à 2.1, taux de panier abandonné à 78%, pas d'email automation. Après 3 mois : ROAS à 3.4 (+62%), récupération de 22% des paniers abandonnés via séquence email, LTV à 90 jours +38%. Leviers : restructuration Google Shopping + test créatifs Meta + flow Klaviyo (bienvenue, panier abandonné, winback) + segmentation RFM. Revenus additionnels estimés sur 3 mois : +47 000 EUR.",
+      "tags": ["cas client", "e-commerce", "ROAS", "panier abandonné", "Klaviyo", "email", "résultats", "mode", "LTV"]
+    },
+    {
+      "id": "digital-marketing-lexique",
+      "title": "Lexique marketing digital",
+      "content": "Termes clés : CPL (Coût Par Lead) = budget dépensé / nombre de leads générés. SQL (Sales Qualified Lead) = lead validé par l'équipe commerciale comme prêt à acheter. LTV (Life Time Value) = revenu total généré par un client sur toute la durée de la relation. ROAS (Return On Ad Spend) = revenus générés / budget publicitaire dépensé. CAC (Customer Acquisition Cost) = coût total d'acquisition / nombre de nouveaux clients. MRR (Monthly Recurring Revenue) = revenus récurrents mensuels. Churn rate = taux de désabonnement ou perte de clients par mois.",
+      "tags": ["CPL", "SQL", "LTV", "ROAS", "CAC", "MRR", "churn", "lexique", "définition", "glossaire", "signification"]
+    }
+  ]
+}
