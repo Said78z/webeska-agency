@@ -84,11 +84,16 @@
 
     <main id="main-content">
       <section class="hero container">
+        <div class="hero-mesh-bg" aria-hidden="true">
+          <div class="hero-orb hero-orb--1"></div>
+          <div class="hero-orb hero-orb--2"></div>
+          <div class="hero-orb hero-orb--3"></div>
+        </div>
         <div class="hero-badge">Agence Growth IA &bull; Paris</div>
         <p class="eyebrow">Performance marketing &amp; IA automation</p>
         <h1>
           Nous transformons votre acquisition en
-          <span>machine de croissance predicible</span>
+          <span class="glow-text">machine de croissance predicible</span>
         </h1>
         <p class="lead">
           Performance marketing, automation IA et pilotage data pour augmenter votre
@@ -118,36 +123,81 @@
         </div>
       </section>
 
-      <section id="method" class="section container">
-        <h2>Methode orientee ROI</h2>
+      <section id="features" class="section container" aria-label="Notre approche complete">
+        <p class="eyebrow">Notre approche</p>
+        <h2>Tout ce qu'il faut pour scaler</h2>
         <p class="section-lead">
-          Une execution en 3 etapes pour transformer vos depenses marketing en revenu previsible.
+          De l'audit strategique au deploiement des systemes IA — une execution complete orientee ROI.
         </p>
-        <div class="cards">
-          <article class="card">
+
+        <div class="bento-grid">
+
+          <!-- Audit Funnel — large primary card -->
+          <article class="bento-item bento-col-4 bento-accent-primary">
             <div class="step">01</div>
             <h3>Audit Funnel AARRR</h3>
             <p>
-              Analyse complete acquisition -> activation -> retention pour detecter
-              les fuites de marge prioritaires.
+              Analyse complete Acquisition &rarr; Activation &rarr; Retention pour detecter
+              les fuites de marge prioritaires et construire la roadmap d'optimisation.
             </p>
+            <div class="bento-tags">
+              <span>Acquisition</span>
+              <span>Activation</span>
+              <span>Retention</span>
+              <span>Revenue</span>
+            </div>
           </article>
-          <article class="card">
+
+          <!-- Systemes IA — tall secondary card -->
+          <article class="bento-item bento-col-2 bento-row-2 bento-accent-secondary">
             <div class="step">02</div>
             <h3>Systemes IA</h3>
             <p>
-              Backend sur mesure + agents IA pour scorer, segmenter, relancer et
-              qualifier automatiquement.
+              Agents IA sur mesure pour scorer, segmenter, relancer et qualifier vos leads
+              automatiquement, 24h/24.
             </p>
+            <div class="bento-spacer"></div>
+            <div class="bento-deco-icon" aria-hidden="true">&#9889;</div>
           </article>
-          <article class="card">
-            <div class="step">03</div>
-            <h3>Optimisation continue</h3>
-            <p>
-              Tests hebdomadaires sur offres, messages et creatives, pilotes par les
-              metriques business reelles.
-            </p>
+
+          <!-- Metric — CPL -->
+          <article class="bento-item bento-col-2 bento-metric">
+            <div class="bento-spacer"></div>
+            <strong class="metric-value">-25%</strong>
+            <span class="metric-label">CPL moyen</span>
           </article>
+
+          <!-- Metric — SQL -->
+          <article class="bento-item bento-col-2 bento-metric">
+            <div class="bento-spacer"></div>
+            <strong class="metric-value">+40%</strong>
+            <span class="metric-label">Taux SQL</span>
+          </article>
+
+          <!-- Growth Engine -->
+          <article class="bento-item bento-col-2">
+            <h3>Growth Engine Setup</h3>
+            <p>Audit funnel, tracking, dashboard KPI et plan d'optimisation en 14 jours.</p>
+            <div class="bento-spacer"></div>
+            <a class="text-link" href="services.html">Voir le detail</a>
+          </article>
+
+          <!-- Acquisition IA -->
+          <article class="bento-item bento-col-2">
+            <h3>Acquisition IA</h3>
+            <p>Systeme outbound/inbound automatise pour multiplier les SQL qualifies.</p>
+            <div class="bento-spacer"></div>
+            <a class="text-link" href="services.html">Voir le detail</a>
+          </article>
+
+          <!-- LTV Accelerator -->
+          <article class="bento-item bento-col-2">
+            <h3>LTV Accelerator</h3>
+            <p>Segmentation lifecycle, retention loops et upsell pilotes par la data.</p>
+            <div class="bento-spacer"></div>
+            <a class="text-link" href="services.html">Voir le detail</a>
+          </article>
+
         </div>
       </section>
 
@@ -156,30 +206,6 @@
           "Votre croissance ne manque pas d'idees. Elle manque d'un systeme qui execute
           plus vite que le marche."
         </blockquote>
-      </section>
-
-      <section class="section container offerings" aria-label="Offres principales">
-        <h2>Offres pour scaler rapidement</h2>
-        <div class="offer-grid">
-          <article class="offer-card">
-            <div class="step">01</div>
-            <h3>Growth Engine Setup</h3>
-            <p>Audit funnel, tracking, dashboard KPI et plan d'optimisation en 14 jours.</p>
-            <a class="text-link" href="services.html">Voir le detail</a>
-          </article>
-          <article class="offer-card">
-            <div class="step">02</div>
-            <h3>Acquisition IA</h3>
-            <p>Systeme outbound/inbound automatise pour multiplier les SQL qualifies.</p>
-            <a class="text-link" href="services.html">Voir le detail</a>
-          </article>
-          <article class="offer-card">
-            <div class="step">03</div>
-            <h3>LTV Accelerator</h3>
-            <p>Segmentation lifecycle, retention loops et sequence d'upsell pilotees par data.</p>
-            <a class="text-link" href="services.html">Voir le detail</a>
-          </article>
-        </div>
       </section>
 
       <section class="section container cta-inline" aria-label="Approches par verticale">
